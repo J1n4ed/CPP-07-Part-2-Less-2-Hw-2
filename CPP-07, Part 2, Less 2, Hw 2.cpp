@@ -2,8 +2,8 @@
 
 /*
   23.01.2023
-  РўРµРјР° 2, Р—Р°РЅСЏС‚РёРµ 2
-  Р Р°Р±РѕС‚Р° 2, РЎС‡РµС‚Р°
+  Тема 2, Занятие 2
+  Работа 2, Счета
   CPP-07
   @j1n4ed
 */
@@ -25,19 +25,19 @@ int main()
 
     account pers;
 
-    std::cout << "Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ СЃС‡С‘С‚Р°: ";
+    std::cout << "Введите номер счёта: ";
 
     std::cin >> pers.number;
 
-    std::cout << "Р’РІРµРґРёС‚Рµ РёРјСЏ РІР»Р°РґРµР»СЊС†Р° : ";
+    std::cout << "Введите имя владельца : ";
 
     std::cin >> pers.fname;
 
-    std::cout << "Р’РІРµРґРёС‚Рµ Р±Р°Р»Р°РЅСЃ : ";
+    std::cout << "Введите баланс : ";
 
     std::cin >> pers.balance;
 
-    std::cout << "Р’РІРµРґРёС‚Рµ РЅРѕРІС‹Р№ Р±Р°Р»Р°РЅСЃ : ";
+    std::cout << "Введите новый баланс : ";
 
     int newBalance = 0;
 
@@ -45,7 +45,7 @@ int main()
 
     pers.balance = newBalance;
 
-    std::cout << "Р’Р°С€ СЃС‡С‘С‚ : " << pers.fname << ", " << pers.number << ", " << pers.balance << std::endl;
+    std::cout << "Ваш счёт : " << pers.fname << ", " << pers.number << ", " << pers.balance << std::endl;
 
     system("pause");
     return 0;
